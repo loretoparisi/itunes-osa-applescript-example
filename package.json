@@ -1,0 +1,37 @@
+{
+  "name": "itunes-osa-applescript-example",
+  "description": "Example node module to control iTunes via Apple Open Script Architecture (OSA)",
+  "version": "1.0.0",
+  "homepage": "https://github.com/loretoparisi/itunes-osa-applescript-example",
+  "private": true,
+  "author": {
+    "name": "Loreto Parisi",
+    "email": "loretoparisi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:loretoparisi/itunes-osa-applescript-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/loretoparisi/itunes-osa-applescript-example/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/loretoparisi/itunes-osa-applescript-example/blob/master/License.md"
+    }
+  ],
+  "main": "lib/index",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+  },
+  "keywords": [],
+  "dependencies": {
+    "osa" : "^2.3.0"
+  }
+}
